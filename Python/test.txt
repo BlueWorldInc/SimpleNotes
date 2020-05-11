@@ -1,0 +1,4 @@
+Les méthodes minsize et maxsize sont normalement utilisées pour définir la taille minimale et maximale de la fenêtre, mais peuvent aussi geler la taille de la fenêtre si vous définissez que les tailles minimale et maximale sont identiques.
+
+resizable(width = False) ne gèle que la largeur de la fenêtre, 
+alors que resizable(height = False) ne gèle que la hauteur de la fenêtre. Toute la taille de la fenêtre est gelée en utilisant resizable(width=False, height=False), ou simplement resizable(False, False).
